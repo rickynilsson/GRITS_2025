@@ -20,8 +20,8 @@ This repo contains hands-on exercises for a workshop on using GitHub Copilot in 
          ├─ __init__.py
          ├─ cli.py
          └─ db.py
-      └─ tests/
-         └─ test_student_db.py
+   └─ tests/
+      └─ test_student_db.py
 ```
 
 ## Example code used in exercises

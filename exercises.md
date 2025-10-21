@@ -14,7 +14,7 @@ A basic coding exercise to demonstrate GitHub Copilot's simple code completion i
 ```
 def factorial(n):
 ```
-4. As soon as you type the function signature and press Enter (or open the curly brace in JavaScript), GitHub Copilot will likely suggest the *entire* function body, including initialization, the loop, and the return statement, in greyed-out text (ghost text).
+4. As soon as you type the function name (or even just after the comment) and press Enter, GitHub Copilot will likely suggest the *entire* function body, including initialization, the loop, and the return statement, in greyed-out cursive text (ghost text).
    **Accept the suggestion** by pressing the **Tab** key.
 
 

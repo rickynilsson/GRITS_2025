@@ -2,7 +2,7 @@
 
 This repo contains hands-on exercises for a workshop on using GitHub Copilot in Visual Studio Code, plus example solutions and a small, production‑style Python package.
 
-- Workshop slides: [https://docs.google.com/presentation/d/1LJYtUzoPv4Wh5FHqXZnUKRjeBgWOwhP8C2g2SQs-s_E/edit?usp=sharing][Google slides]
+- Workshop slides: [https://docs.google.com/presentation/d/1LJYtUzoPv4Wh5FHqXZnUKRjeBgWOwhP8C2g2SQs-s_E/edit?usp=sharing](Google slides)
 - Workshop exercise guide: [exercises.md](exercises.md)
 
 ## Layout

@@ -16,6 +16,7 @@ def factorial(n):
 ```
 4. As soon as you type the function name (or even just after the comment) and press Enter, GitHub Copilot will likely suggest the *entire* function body, including initialization, the loop, and the return statement, in greyed-out cursive text (ghost text).
    **Accept the suggestion** by pressing the **Tab** key.
+5. Add a row to try the function, e.g., `print(factorial(5)`. Save and execute the file.
 
 
 ## Exercise 2: Simple code completion example 2

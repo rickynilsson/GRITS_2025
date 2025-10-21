@@ -35,22 +35,9 @@ def reverse_string(text):
 ```
 4. As soon as you press Enter after the colon (:), Copilot will likely suggest the entire function body, which often includes the most idiomatic Python solution (using slicing).
    Press the **Tab** key to **accept** the suggested code completion.
-
+5. Add a row to try the function, e.g., `reverse_string('hello world')`. Save and execute the file.
 
 Copilot has the ability to interpret a simple natural language prompt (in the comment and/or function signature) and immediately provide a multi-line, syntactically correct code block for a common task, showcasing its most basic form of code completion.
-
-In the VS Code terminal, start a Python interpreter and try out your functions!
-```
-GRITS_2025/ » python
-Python 3.11.7 (main, Dec 15 2023, 12:09:04) [Clang 14.0.6 ] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
-Cmd click to launch VS Code Native REPL
->>> from simple_funcs import factorial, reverse_string
->>> factorial(14)
-87178291200
->>> reverse_string('hello world')
-'dlrow olleh'
-```
 
 
 ## Exercise 3: Slightly more complex code completion

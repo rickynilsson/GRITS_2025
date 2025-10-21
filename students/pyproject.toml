@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-db"
+version = "0.1.0"
+description = "Simple student database package using SQLite with add/update/delete functionality."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Your Name" }]
+dependencies = []
+
+[project.scripts]
+student-db = "student_db.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["student_db*"]

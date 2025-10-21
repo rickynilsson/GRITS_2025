@@ -169,7 +169,7 @@ The complexity comes from using internal attributes (self._state), nested data s
 
 **Goal:** Write a Python class that processes a list of transactions, calculates a moving average, and identifies anomalies using a threshold. The code should be fully functional but completely uncommented.
 
-1. Create a file called `processor.py`, paste the code below and save the file.
+1. Create a file called `processor.py`, copy and paste the code from below and save the file.
 ```
 import collections
 
@@ -227,3 +227,6 @@ print(processor.get_anomalies())
 8. Chose to either apply the updated code in the editor or insert into a new file.
 
 The exercise shows Copilot's ability to **reason about the intent and function of uncommented, multi-method class structures** and complex internal state.
+
+## Exercise 7: Build your own basic Python package with the help of Copilot in VS Code
+Now that you have all this knowledge about how to use Copilot, use it to create a simple student database with basic functionality for adding, editing, and removing student info. Maybe include unit tests? Maybe documentation? Maybe create a simple web interface to view the database as a table? Your imagination is the only limit!

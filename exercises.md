@@ -119,16 +119,10 @@ def find_median(data):
         mid = n // 2
         return data[mid]
 ```
-3. Run a quick test to show the incorrect output:
+3. Run a quick test to show the incorrect output (comp. expected correct output: (20 + 30) / 2 = 25.0):
 ```
-GRITS_2025/ » python
-Python 3.11.7 (main, Dec 15 2023, 12:09:04) [Clang 14.0.6 ] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
-Cmd click to launch VS Code Native REPL
->>> from simple_funcs import find_median
->>> # Expected correct output: (20 + 30) / 2 = 25.0
->>> sorted_list = [10, 20, 30, 40]
->>> print(f"Median: {find_median(sorted_list)}") # Output will be 30 (Incorrect)
+sorted_list = [10, 20, 30, 40]
+print(f"Median: {find_median(sorted_list)}") # Output will be 30 (Incorrect)
 ```
 4. Use Copilot's **Inline Chat** to fix the code:
    + Select the entire function block (all lines from `def find_median(data):` to `return `data[mid]`).

@@ -59,6 +59,7 @@ def is_anagram(str1, str2):
 4. As soon as you press Enter after the colon (:), Copilot will use the context of the comment and the function signature to suggest the complete, multi-step solution.
    The suggested completion will likely involve cleaning the strings (removing spaces and converting to lowercase) and then sorting them for comparison, which is a common and efficient way to solve this problem.
    Press the **Tab** key to **accept** the suggested code completion.
+5. Try it out!
 
 This code is slightly more complex because it involves multiple, distinct steps inside the function body (`.replace()`, `.lower()`, and `sorted()`), demonstrating Copilot's ability to generate a small algorithm, not just a single-line result.
 

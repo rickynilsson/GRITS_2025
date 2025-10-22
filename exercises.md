@@ -33,8 +33,8 @@ A similar basic Python exercise that demonstrates GitHub Copilot's simple code c
 ```
 def reverse_string(text):
 ```
-4. As soon as you press Enter after the colon (:), Copilot will likely suggest the entire function body, which often includes the most idiomatic Python solution (using slicing).
-   Press the **Tab** key to **accept** the suggested code completion.
+4. As soon as you press Enter after the colon (:), or even after the initial descriptive comment, Copilot will likely suggest the entire function body, which often includes the most idiomatic Python solution (using slicing).
+   Press the **Tab** key to **accept** the suggested code completion *or* press **Option/Alt + ]** to see alternative suggestions.
 5. Add a row to try the function, e.g., `reverse_string('hello world')`. Save and execute the file.
 
 Copilot has the ability to interpret a simple natural language prompt (in the comment and/or function signature) and immediately provide a multi-line, syntactically correct code block for a common task, showcasing its most basic form of code completion.
